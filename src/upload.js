@@ -21,7 +21,7 @@ if (window.XMLHttpRequest && !(window.FileAPI && FileAPI.shouldLoad)) {
   })(window.XMLHttpRequest.prototype.setRequestHeader);
 }
 
-var ngFileUpload = angular.module('ngFileUpload', []);
+var ngFileUpload = angular.module('angularFileUpload', []);
 
 ngFileUpload.version = '<%= pkg.version %>';
 
